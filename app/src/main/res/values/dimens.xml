@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="today_icon">96dp</dimen>
+    <dimen name="list_icon">40dp</dimen>
+
+    <dimen name="forecast_detail_horizontal_padding">16dp</dimen>
+    <dimen name="forecast_detail_vertical_padding">32dp</dimen>
+
+    <!-- Recycleview 左右边距，针对平板布局将设定为 80dp -->
+    <dimen name="forecast_main_horizontal_padding">0dp</dimen>
+</resources>

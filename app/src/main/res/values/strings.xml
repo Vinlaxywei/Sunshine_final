@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">Sunshine</string>
+
+    <!--设置菜单的选项-->
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+
+    <!--activity title-->
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--地址设置-->
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_default" translatable="false">深圳</string>
+
+    <!--温度单位设置-->
+    <string name="pref_units_label">Temperature Units</string>
+    <string name="pref_units_label_metric">Metric</string>
+    <string name="pref_units_label_imperial">Imperial</string>
+    <string name="pref_units_key" translatable="false">units</string>
+    <string name="pref_units_metric" translatable="false">metric</string>
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!--天气数据格式化字符串-->
+    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+    <string name="format_wind_mph"><xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_wind_kmh"><xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="format_pressure"><xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+    <string name="format_humidity"><xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+
+    <string name="emptyView_noNetWork">无可用天气信息，检查网络状况以获取天气数据</string>
+
+    <!--共享元素动画-->
+    <string name="transitionName_weather_date">dateView</string>
+    <string name="transitionName_weather_icon">iconView</string>
+    <string name="transitionName_weather_high">highView</string>
+    <string name="transitionName_weather_low">lowView</string>
+    <string name="transitionName_weather_description">descriptionView</string>
+
+    <!--地址反馈信息-->
+    <string name="pref_exception_status_key">loc-status</string>
+    <string name="pref_exception_status_default">未知位置</string>
+    <string name="pref_exception_status_valid">有效位置</string>
+    <string name="pref_exception_status_invalid">无效位置</string>
+    <string name="pref_exception_status_cheking">（检测中…）</string>
+
+</resources>
