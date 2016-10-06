@@ -1,4 +1,4 @@
-### Udacity Android Developer course project
+### Udacity Android Developer course project 一款简洁的天气应用
 ##### 使用时需在 http://openweathermap.org/ 获取 ApiKey，将其添加到 gradle.properties 文件下。PS:由于数据来源于国外网站，网络有时会不太稳定。
 ================
 
